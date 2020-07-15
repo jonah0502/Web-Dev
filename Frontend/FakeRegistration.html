@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fake Registration Page</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+	<label for="First">First Name:</label>
+	<input id="First" type="text" name="Name" placeholder="John" required>
+	<label for="last">Last Name:</label>
+	<input id="last" type="text" name="Name" placeholder="Smith" required>
+	
+	<div>
+	<label for="Male">Male</label>
+	<input id="Male" type="radio" name="Gender" required>
+	<label for="Female">Female</label>
+	<input id="Female" type="radio" name="Gender">
+	<label for="Other">Other</label>
+	<input id="Other" type="radio" name="Gender">	
+	</div>
+	
+	<div>
+	<label for="email">Email:</label>
+	<input id="email" type="email" name="email" placeholder="Email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="Password" placeholder="Password" minlength="8" required>
+	</div>
+	<div>
+	<label>Birthday:</label>
+	<select>
+		<option>Month</option>
+		<option>Jan</option>
+		<option>Feb</option>
+		<option>Mar</option>
+	</select>
+	<select>
+		<option>Day</option>
+		<option>10</option>
+		<option>11</option>
+		<option>12</option>
+	</select>
+	<select>
+		<option>Year</option>
+		<option>1999</option>
+		<option>2000</option>
+		<option>2001</option>
+	</select>
+	</div>
+	<div>
+	<label for="Agree">I agree to the terms and conditions</label>
+	<input id="Agree" type="checkbox" name="Agree" required>
+	</div>
+	<button>Submit</button>
+</form>
+</body>
+</html>

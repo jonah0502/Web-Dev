@@ -1,0 +1,21 @@
+table{
+	margin: auto;
+}
+h1{
+	text-align: center;
+}
+
+td{
+width: 100px;
+height: 100px;
+}
+
+.middlevert{
+	border-right: 1px solid;
+	border-left: 1px solid;
+}
+
+.middlehor{
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
